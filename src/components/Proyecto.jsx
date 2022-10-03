@@ -11,7 +11,8 @@ export const Proyecto = () => {
     useEffect(()=>{
         let datos = estudios.filter(estudio => estudio.img === params.id);
         setEstudiosState(datos[0])
-    }, []);
+        //react-hooks/exhausting-deps
+    }, [params]);
 
   return (
     <div>
@@ -19,16 +20,6 @@ export const Proyecto = () => {
             <img src={"/img/"+estudiosState.img+".jpg"} alt="Cargando.."/>
             <Link to="/estudios"><img id='back' src='/img/back.png' alt='atras'/></Link>
         </div>
-
-        {/* <h3>Tipo de cetificacion: {estudiosState.tipo}</h3>
-        <h1>Titulo: {estudiosState.titulo}</h1>
-        <h3>Institucion: {estudiosState.intitucion}</h3>
-        <h3>Tiempo de duracion: {estudiosState.duracion}</h3> */}
     </div>
-            // 'img':'AIEP-HTML',
-            // 'tipo':'Curso',
-            // 'titulo':'Html y Css',
-            // 'intitucion':'AIEP',
-            // 'duracion': "30hrs"
   )
 }
