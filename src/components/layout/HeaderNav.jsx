@@ -3,6 +3,11 @@ import { NavLink } from 'react-router-dom'
 import '../style/header.css'
 
 export const HeaderNav = () => {
+  
+      useEffect(() => {
+        document.title = "Portafolio GabrielDev"
+     }, []);
+  
   return (
     <header className='header'>
 
