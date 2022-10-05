@@ -9,9 +9,11 @@ export const Proyecto = () => {
     const params = useParams();
 
     useEffect(()=>{
+        
         let datos = estudios.filter(estudio => estudio.img === params.id);
         setEstudiosState(datos[0])
-    }, []);
+        //react-hooks/exhausting-deps
+    }, [params]);
 
   return (
     <div>

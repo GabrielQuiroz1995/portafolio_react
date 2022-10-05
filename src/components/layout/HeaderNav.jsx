@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 import '../style/header.css'
 
 export const HeaderNav = () => {
-  return (
-    <header className='header'>
 
+    useEffect(() => {
+        document.title = "Portafolio GabrielDev"
+     }, []);
+
+  return (
+    
+    <header className='header'>
+        <title>Portafolio GQDev</title>
         <div className='logo'>
             <div className='cubo1 cubo'>
                 <div className='cubo2 cubo'>
@@ -22,9 +28,9 @@ export const HeaderNav = () => {
                 <li>
                     <NavLink to="/estudios">Estudios</NavLink>
                 </li>
-                <li>
+                {/* <li>
                     <NavLink to="/curriculum">Experiencia</NavLink>
-                </li>
+                </li> */}
                 <li>
                     <NavLink to="/portafolio">Portafolio</NavLink>
                 </li>
