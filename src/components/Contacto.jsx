@@ -18,11 +18,11 @@ export const Contacto = () => {
 
   return (
     <div className="container">
-        <h1 className="titulo">Contacto</h1>
+        <h1 className="titulo contacto">Contacto</h1>
         <form className="contact" ref={form} onSubmit={sendEmail}>
-            <input type="text" name="nombre" placeholder="Nombre" required/>
-            <input type="email" name="email" placeholder="Email" required/>
-            <textarea name="motivo" placeholder="Motivo de contacto" required/>
+            <input className='input' type="text" name="nombre" placeholder="Nombre" required/>
+            <input className='input' type="email" name="email" placeholder="Email" required/>
+            <textarea className='input' name="motivo" placeholder="Motivo de contacto" required/>
             <input id="btn" type="submit" value="Enviar"/>
       </form>
   </div>

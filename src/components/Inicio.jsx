@@ -5,10 +5,11 @@ import "./style/inicio.css";
 export const Inicio = () => {
   return (
     <div className="content">
-      <h1 className="titulo">Sobre mi ✨</h1>
+      <h1 className="titulo inicio">Sobre mi ✨</h1>
       <div className="home">
         <div className="img">
           <img
+            className="portada"
             alt="Cargando..."
             src="https://media-exp1.licdn.com/dms/image/D4E03AQEZarA2ALh07A/profile-displayphoto-shrink_200_200/0/1663038767457?e=1670457600&v=beta&t=r3sDS2t3ynKmTc0sGS6B05vww5ll3nQDHgZqXbeHqM0"
           ></img>

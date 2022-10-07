@@ -1,11 +1,12 @@
 
 .contenedor-experiencia p{
     font-size: 18px;
-    color: black;
+    color: whitesmoke;
+    
 }
 .contenedor-experiencia span{
-    color: black;
     opacity: 0.8;
+    color: whitesmoke;
 }
 
 .contenedor-experiencia span:hover{
