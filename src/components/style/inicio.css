@@ -127,6 +127,9 @@
             margin-top: 0px;
             /* width: 20px; */
         }
+        .span-3{
+            display: none;
+        }
     }
     @media (max-width: 520px) {
         .img img{

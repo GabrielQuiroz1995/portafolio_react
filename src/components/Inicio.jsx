@@ -40,14 +40,16 @@ export const Inicio = () => {
             continué mi formación de forma autodidacta  en distintas plataformas y bootcamp. <br/><br/>
 
             Actualmente trabajo en el area de soporte como analista funcional y
-            aspiro algun día a formar parte de un equipo de desarrollo.<br/><br/>
-            
+            aspiro algun día a formar parte de un equipo de desarrollo.
+            <span className="span-3">
+            <br/><br/>
             Me encanta el mundo del desarrollo web y las tecnologias en general, en mis ratos libre realizo deportes y me entrentengo con algunos videojuegos.
+            </span>
             <br />
           </h2>
           <h1 className="titulo">Skill</h1>
           <p className="skill">
-          ✨ HTML5, CSS, JavaScript, ReactJS, TypeScript, GitHub, GitLab, Bitbucket, NodeJS
+          ✨ HTML5, CSS, JavaScript, ReactJS, TypeScript, GitHub, Git, NodeJS
           </p>
           <h1 className="titulo">Experiencia</h1>
           <div className="experiencia">
