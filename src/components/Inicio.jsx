@@ -32,18 +32,17 @@ export const Inicio = () => {
         </div>
         <div className="text">
           <h1>
-            👋 Hola, soy Gabriel Quiroz Analista Programador de Valparaíso de
-            Chile.
+            👋 Hola, soy Gabriel Quiroz Analista Programador de Valparaíso, Chile.
           </h1>
           <h2>
-            Curse estudios tecnicos superiores en INACAP,
-            continué mi formación de forma autodidacta  en distintas plataformas y bootcamp. <br/><br/>
+            Cursé estudios técnicos superiores en INACAP y luego
+            continué mi formación de manera autodidacta en botcamp, plataformas como udemy platzi entre otras. <br/><br/>
 
-            Actualmente trabajo en el area de soporte como analista funcional y
-            aspiro algun día a formar parte de un equipo de desarrollo.
+            Actualmente, trabajo en el área de soporte como Analista funcional y tengo la
+            aspiracion de lograr a futuro ser parte de un equipo de desarrollo.
             <span className="span-3">
             <br/><br/>
-            Me encanta el mundo del desarrollo web y las tecnologias en general, en mis ratos libre realizo deportes y me entrentengo con algunos videojuegos.
+            Me encanta el mundo de la programacion y la ciberseguirdad, en mis ratos libre realizo deportes y me entrentengo con algunos videojuegos.
             </span>
             <br />
           </h2>
@@ -56,7 +55,7 @@ export const Inicio = () => {
             <h3>⚡️ Analista Funcional N2 • Coasin Logicalis.</h3>
             <p>
             <span>Febrero 2022 – Actualidad</span><br/>
-              Participacion en equipo resolutor donde se analizan las
+              Participación en equipo resolutor donde se analizan las
               diferentes problemáticas de banco de chile, mediante consultas
               SQL, Instalaciones y conexiones a bases de datos.
               <br />
