@@ -36,10 +36,10 @@ export const Inicio = () => {
           </h1>
           <h2>
             Cursé estudios técnicos superiores en INACAP y luego
-            continué mi formación de autodidacta en plataformas digitales tales como udemy, platzi, bootcamp entre otras. <br/><br/>
+            continué mi formación de manera autodidacta en plataformas digitales como udemy, platzi, bootcamp, entre otras. <br/><br/>
 
             Actualmente, trabajo en el área de soporte como Analista funcional y tengo la
-            aspiración de lograr a futuro ser parte de un equipo de desarrollo.
+            aspiración de lograr en un futuro formar parte de un equipo de desarrollo.
             <br/>
             <hr/>
           </h2>
