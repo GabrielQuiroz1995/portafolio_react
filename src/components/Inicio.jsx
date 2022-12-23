@@ -11,7 +11,7 @@ export const Inicio = () => {
           <img
             className="portada"
             alt="Cargando..."
-            src="https://media-exp1.licdn.com/dms/image/D4E03AQEZarA2ALh07A/profile-displayphoto-shrink_200_200/0/1663038767457?e=1670457600&v=beta&t=r3sDS2t3ynKmTc0sGS6B05vww5ll3nQDHgZqXbeHqM0"
+            src="https://media.licdn.com/dms/image/D4E03AQHi3-6AhlaSPg/profile-displayphoto-shrink_200_200/0/1671453746204?e=1677110400&v=beta&t=0mDAnNzLfWrzVCEdXjaXxMb52JokjQcgbXI4wN0-2OY"
           ></img>
           <h4>Front-End Dev</h4>
           <div className="redes">

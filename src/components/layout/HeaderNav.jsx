@@ -13,12 +13,7 @@ export const HeaderNav = () => {
     <header className='header'>
         <title>Portafolio GQDev</title>
         <div className='logo'>
-            <div className='cubo1 cubo'>
-                <div className='cubo2 cubo'>
-                    <div className='cubo3 cubo'>
-                    </div>
-                </div>
-            </div>
+            <h2 className='title-logo'>Portafolio</h2>
         </div>
         <nav>
             <ul>
@@ -32,7 +27,7 @@ export const HeaderNav = () => {
                     <NavLink to="/curriculum">Experiencia</NavLink>
                 </li> */}
                 <li>
-                    <NavLink to="/portafolio">Portafolio</NavLink>
+                    <NavLink to="/portafolio">Proyectos</NavLink>
                 </li>
                 <li>
                     <NavLink to="/contacto">Contacto</NavLink>

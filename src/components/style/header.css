@@ -3,14 +3,13 @@
     height: 130px;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     margin-bottom: 30px;
   }
   .header .logo{
     display: flex;
     position: relative;
     width: 5%;
-    height: 130px;
     flex-grow: 0.5;
   }
   .header nav{
@@ -47,9 +46,22 @@
   .header .active{
     color: #fa4529;
   }
+  .title-logo{
+    text-align:center;
+    font-size:28px;
+    padding: 8px;
+    text-transform:uppercase;
+    border-bottom: solid gray 2px;
+    border-top: solid gray 2px;
+    text-shadow:0 0 10px white;
+    letter-spacing:5px;
+    opacity: 0.9;
+  }
+
+  
   
   /* Style cubo */
-  .cubo{
+  /* .cubo{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -73,7 +85,7 @@
     width: 2.5vh;
     height: 2.5vh;
     background-color: #ffffff;
-  }
+  } */
   
   @keyframes anim{
     0%{
