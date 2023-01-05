@@ -45,27 +45,29 @@ export const Inicio = () => {
           </h2>
           <h1 className="titulo">Skill</h1>
           <p className="skill">
-          ✨ HTML5, CSS, JavaScript, ReactJS, TypeScript, GitHub, Git, NodeJS
+          ✨ JavaScript, Java, ReactJS, TypeScript, GitHub, Git, NodeJS, MongoDB, SQL
           </p>
           <h1 className="titulo">Experiencia</h1>
           <div className="experiencia">
             <h3>⚡️ Analista Funcional N2 • Coasin Logicalis.</h3>
             <p>
             <span>Febrero 2022 – Actualidad</span><br/>
-              Participación en equipo resolutor donde se analizan las
-              diferentes problemáticas de banco de chile, mediante consultas
-              SQL, Instalaciones y conexiones a bases de datos.
+            • Documentación técnica de requerimientos funcionales según estándares de la empresa.<br/>
+            • Utilización de metodologías agiles, Scrum.<br/>
+            • Control de versiones con Git.<br/>
+            • Mantención al código de los productos generados por la empresa, utilizando lenguajes tales como 
+            Java, JavaScript (ReactJS), CSS, entre otros
               <br />
             </p>
           </div>
           <div className="experiencia">
-            <h3>⚡️ Analista Funcional Jr en KONEXA Talent</h3>
+            <h3>⚡️ Desarrollador Full-Stack • Freelance</h3>
             <p>
-            <span>Marzo 2021 – diciembre 2021</span><br/>
-              Formo parte de una mesa de ayuda donde se gestiona los
-              requerimientos de usuarios con JIRA, participo en el
-              modelamiento de las bases de datos para poder gestionar y
-              solucionar problemas mediante la utilización de SQL server.
+            <span>Marzo 2019 – Actualidad</span><br/>
+            • Red social y API rest, utilizando; ReactJS / NodeJS / Express / MongoDB.<br/>
+            • Landing page estática, utilizando; tailwindCSS / JavaScript / Html5<br/>
+            • Administración de libros, utilizando: JAVA y MySQL.<br/>
+            • E-commerce, utilizando; ReactJS / SASS / JAVA.
               <br />
             </p>
           </div>
