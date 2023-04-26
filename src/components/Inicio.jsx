@@ -11,15 +11,15 @@ export const Inicio = () => {
           <img
             className="portada"
             alt="Cargando..."
-            src="https://media.licdn.com/dms/image/D4E03AQHi3-6AhlaSPg/profile-displayphoto-shrink_200_200/0/1671453746204?e=1677110400&v=beta&t=0mDAnNzLfWrzVCEdXjaXxMb52JokjQcgbXI4wN0-2OY"
+            src="../img/portada.jpeg"
           ></img>
           <h4>Front-End Dev</h4>
           <div className="redes">
-              <a href="https://www.instagram.com/1.9.9.5.shhh/" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/GabrielQuiroz1995" target="_blank" rel="noopener noreferrer">
                 <img
                 className="icons"
-                src="../img/icons/in.png"
-                alt="instagram"
+                src="../img/icons/git.png"
+                alt="github"
                 ></img>
               </a>
               <a href="https://www.linkedin.com/in/gabriel-quiroz-ponce-9320691b9" target="_blank" rel="noopener noreferrer">
@@ -63,7 +63,7 @@ export const Inicio = () => {
           <div className="experiencia">
             <h3>⚡️ Desarrollador Full-Stack • Freelance</h3>
             <p>
-            <span>Marzo 2019 – Actualidad</span><br/>
+            <span>Marzo 2021 – Actualidad</span><br/>
             • Red social y API rest, utilizando; ReactJS / NodeJS / Express / MongoDB.<br/>
             • Landing page estática, utilizando; tailwindCSS / JavaScript / Html5<br/>
             • Administración de libros, utilizando: JAVA y MySQL.<br/>

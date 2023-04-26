@@ -13,7 +13,7 @@ export const HeaderNav = () => {
     <header className='header'>
         <title>Portafolio GQDev</title>
         <div className='logo'>
-            <h2 className='title-logo'>Portafolio</h2>
+            <h2 className='title-logo'>frontend</h2>
         </div>
         <nav>
             <ul>

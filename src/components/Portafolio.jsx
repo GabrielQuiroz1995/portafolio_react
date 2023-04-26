@@ -4,7 +4,6 @@ import '../components/style/portafolio.css'
 export const Portafolio = () => {
   return (
     <div>
-      <h1 className='titulo'>Portafolio</h1>
       <div className='portafolio'>
         
         <h3>Pronto se subirán los siguientes proyectos:</h3><br/>

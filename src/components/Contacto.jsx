@@ -8,7 +8,7 @@ export const Contacto = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_u3hj19u', 'template_v2q3436', e.target, 'aG16uleZG9XNLGPyN')
+    emailjs.sendForm('service_r4ppcyl', 'template_v2q3436', e.target, 'aG16uleZG9XNLGPyN')
       .then((result) => {
           alert("Mensaje enviado correctamente, Saludos !!");
       }, (error) => {

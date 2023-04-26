@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 export const Estudios = () => {
   return (
     <div>
-      <h1 className='titulo'>Estudios</h1>
       <section className='estudios'>
         {
           estudios.map((estudio,indice) => (
